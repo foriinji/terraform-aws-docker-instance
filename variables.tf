@@ -5,6 +5,7 @@ variable "instance_type" {
 
 variable "key_name" {
   type = string
+  default = "firstkey"
 }
 
 variable "num_of_instance" {
